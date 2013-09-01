@@ -13,12 +13,13 @@
 		322B469617D3A6DB00C82E78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 322B469417D3A6DB00C82E78 /* InfoPlist.strings */; };
 		322B469817D3A6DB00C82E78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B469717D3A6DB00C82E78 /* main.m */; };
 		322B469C17D3A6DB00C82E78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B469B17D3A6DB00C82E78 /* AppDelegate.m */; };
-		322B469E17D3A6DB00C82E78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322B469D17D3A6DB00C82E78 /* Images.xcassets */; };
 		322B46A517D3A6DB00C82E78 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322B46A417D3A6DB00C82E78 /* XCTest.framework */; };
 		322B46A617D3A6DB00C82E78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322B468B17D3A6DB00C82E78 /* Foundation.framework */; };
 		322B46A717D3A6DB00C82E78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322B468F17D3A6DB00C82E78 /* UIKit.framework */; };
 		322B46AF17D3A6DB00C82E78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 322B46AD17D3A6DB00C82E78 /* InfoPlist.strings */; };
 		322B46B117D3A6DB00C82E78 /* MXTableViewToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B46B017D3A6DB00C82E78 /* MXTableViewToolsTests.m */; };
+		322B46BC17D3A70500C82E78 /* MXViewWrapperTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B46BB17D3A70500C82E78 /* MXViewWrapperTableViewCell.m */; };
+		322B46BF17D3A78100C82E78 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B46BE17D3A78100C82E78 /* TestTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +43,15 @@
 		322B469917D3A6DB00C82E78 /* MXTableViewTools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MXTableViewTools-Prefix.pch"; sourceTree = "<group>"; };
 		322B469A17D3A6DB00C82E78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		322B469B17D3A6DB00C82E78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		322B469D17D3A6DB00C82E78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		322B46A317D3A6DB00C82E78 /* MXTableViewToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MXTableViewToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		322B46A417D3A6DB00C82E78 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		322B46AC17D3A6DB00C82E78 /* MXTableViewToolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MXTableViewToolsTests-Info.plist"; sourceTree = "<group>"; };
 		322B46AE17D3A6DB00C82E78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		322B46B017D3A6DB00C82E78 /* MXTableViewToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXTableViewToolsTests.m; sourceTree = "<group>"; };
+		322B46BA17D3A70500C82E78 /* MXViewWrapperTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXViewWrapperTableViewCell.h; sourceTree = "<group>"; };
+		322B46BB17D3A70500C82E78 /* MXViewWrapperTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXViewWrapperTableViewCell.m; sourceTree = "<group>"; };
+		322B46BD17D3A78100C82E78 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		322B46BE17D3A78100C82E78 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +113,11 @@
 			children = (
 				322B469A17D3A6DB00C82E78 /* AppDelegate.h */,
 				322B469B17D3A6DB00C82E78 /* AppDelegate.m */,
-				322B469D17D3A6DB00C82E78 /* Images.xcassets */,
+				322B46BD17D3A78100C82E78 /* TestTableViewController.h */,
+				322B46BE17D3A78100C82E78 /* TestTableViewController.m */,
 				322B469217D3A6DB00C82E78 /* Supporting Files */,
+				322B46BA17D3A70500C82E78 /* MXViewWrapperTableViewCell.h */,
+				322B46BB17D3A70500C82E78 /* MXViewWrapperTableViewCell.m */,
 			);
 			path = MXTableViewTools;
 			sourceTree = "<group>";
@@ -220,7 +227,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				322B469617D3A6DB00C82E78 /* InfoPlist.strings in Resources */,
-				322B469E17D3A6DB00C82E78 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +246,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				322B469C17D3A6DB00C82E78 /* AppDelegate.m in Sources */,
+				322B46BC17D3A70500C82E78 /* MXViewWrapperTableViewCell.m in Sources */,
 				322B469817D3A6DB00C82E78 /* main.m in Sources */,
+				322B46BF17D3A78100C82E78 /* TestTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +366,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MXTableViewTools/MXTableViewTools-Prefix.pch";
 				INFOPLIST_FILE = "MXTableViewTools/MXTableViewTools-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -371,6 +380,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MXTableViewTools/MXTableViewTools-Prefix.pch";
 				INFOPLIST_FILE = "MXTableViewTools/MXTableViewTools-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
